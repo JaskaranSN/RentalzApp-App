@@ -35,11 +35,11 @@
     <feature name="Vibration">
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
-    <name>Firstapp</name>
+    <name>Rentalz App</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+       This is the Rentalz Application
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="jn2566u@gre.ac.uk" href="http://phonegap.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
