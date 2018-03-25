@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="Rentalz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-<name>Rentalz App</name>
+	<name>Rentalz App</name>
     <description>
        This is the Rentalz Application
     </description>
     <author email="jn2566u@gre.ac.uk" href="http://phonegap.com">
         PhoneGap Team
     </author>
+	    <content src="index.html" />
+    <!-- <access origin="*" /> -->
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
@@ -43,8 +45,7 @@
         <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
     
-    <content src="index.html" />
-    <access origin="*" />
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
